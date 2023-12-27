@@ -1,0 +1,18 @@
+@media (max-width: 1201px){
+.fast_card{
+    margin-right: 0;
+}
+.a_col1, .a_col2, .a_col3{    
+    display: flex;
+    flex-direction: column;
+}
+.a_card{
+    justify-content: center;
+}
+}
+@media (max-width: 1025px){}
+@media (max-width:930px){}
+@media (max-width: 769px){}
+@media (max-width: 577px){}
+@media (max-width: 481px){}
+@media (max-width: 320px){}
