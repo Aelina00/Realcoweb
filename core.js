@@ -1,6 +1,4 @@
 
-
-
 (function($) { "use strict";
 
     document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
@@ -63,3 +61,5 @@
 	});
 	
 })(jQuery); 
+
+
