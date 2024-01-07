@@ -10,6 +10,75 @@
     <link rel="stylesheet" href="media.css">
 </head>
 <body style="overflow-x: hidden;">
+    <div class="preloader">
+        <svg class="pl" viewBox="0 0 128 128" width="128px" height="128px">
+            <defs>
+                <linearGradient id="pl-grad" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#000" />
+                    <stop offset="100%" stop-color="#fff" />
+                </linearGradient>
+                <mask id="pl-mask">
+                    <rect x="0" y="0" width="128" height="128" fill="url(#pl-grad)" />
+                </mask>
+            </defs>
+            <g stroke-linecap="round" stroke-width="8" stroke-dasharray="32 32">
+                <g stroke="hsl(193,90%,50%)">
+                    <line class="pl__line1" x1="4" y1="48" x2="4" y2="80" />
+                    <line class="pl__line2" x1="19" y1="48" x2="19" y2="80" />
+                    <line class="pl__line3" x1="34" y1="48" x2="34" y2="80" />
+                    <line class="pl__line4" x1="49" y1="48" x2="49" y2="80" />
+                    <line class="pl__line5" x1="64" y1="48" x2="64" y2="80" />
+                    <g transform="rotate(180,79,64)">
+                        <line class="pl__line6" x1="79" y1="48" x2="79" y2="80" />
+                    </g>
+                    <g transform="rotate(180,94,64)">
+                        <line class="pl__line7" x1="94" y1="48" x2="94" y2="80" />
+                    </g>
+                    <g transform="rotate(180,109,64)">
+                        <line class="pl__line8" x1="109" y1="48" x2="109" y2="80" />
+                    </g>
+                    <g transform="rotate(180,124,64)">
+                        <line class="pl__line9" x1="124" y1="48" x2="124" y2="80" />
+                    </g>
+                </g>
+                <g stroke="hsl(283,90%,50%)" mask="url(#pl-mask)">
+                    <line class="pl__line1" x1="4" y1="48" x2="4" y2="80" />
+                    <line class="pl__line2" x1="19" y1="48" x2="19" y2="80" />
+                    <line class="pl__line3" x1="34" y1="48" x2="34" y2="80" />
+                    <line class="pl__line4" x1="49" y1="48" x2="49" y2="80" />
+                    <line class="pl__line5" x1="64" y1="48" x2="64" y2="80" />
+                    <g transform="rotate(180,79,64)">
+                        <line class="pl__line6" x1="79" y1="48" x2="79" y2="80" />
+                    </g>
+                    <g transform="rotate(180,94,64)">
+                        <line class="pl__line7" x1="94" y1="48" x2="94" y2="80" />
+                    </g>
+                    <g transform="rotate(180,109,64)">
+                        <line class="pl__line8" x1="109" y1="48" x2="109" y2="80" />
+                    </g>
+                    <g transform="rotate(180,124,64)">
+                        <line class="pl__line9" x1="124" y1="48" x2="124" y2="80" />
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </div>
+    <!-- <div class="preloader">
+        <div class="preloader__waviy">
+          <span style="--i:1;">L</span>
+          <span style="--i:2;">o</span>
+          <span style="--i:3;">a</span>
+          <span style="--i:4;">d</span>
+          <span style="--i:5;">i</span>
+          <span style="--i:6;">n</span>
+          <span style="--i:7;">g</span>
+          <span style="--i:8;">.</span>
+          <span style="--i:9;">.</span>
+          <span style="--i:10;">.</span>
+        </div>
+      </div> -->
+
+    <div class="content">
         <div class="fab-wrapper">
             <input id="fabCheckbox" type="checkbox" class="fab-checkbox" />
             <label class="fab" for="fabCheckbox">
@@ -31,7 +100,7 @@
                 <i class="fas fa-info"></i>
               </a>
             </div>
-        </div>
+    </div>
     <section class="sub_header">
         <p class="sub_txt">Get your dream house in a week.</p>
         <span class="sub_x"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -682,6 +751,7 @@
         </div>
 	</div>
 	</footer>
+    </div>
     <a href="https://front.codes/" class="link-to-portfolio hover-target" target=”_blank”></a>
     <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
     <script src="core.js"></script>

@@ -1,4 +1,35 @@
+// window.addEventListener('load', () => {
 
+// 	const loader = document.querySelector('.loader');
+  
+// 	loader.classList.add('fadeOut');  
+  
+// 	const content = document.querySelector('.content');
+// 	content.style.display = 'block';
+
+// 	setTimeout(() => {
+// 	  loader.style.display = 'none';
+// 	}, 2000) 
+//   })
+//   loaderAnimation.classList.add('stop'); 
+//   circle.style.animation = 'none';
+
+window.addEventListener('load', () => {
+
+const preloader = document.querySelector('.preloader');
+const content = document.querySelector('.content');
+  
+preloader.classList.add('hide-preloader');
+  
+setTimeout(() => {
+	content.style.display = 'block';
+}, 500);
+  
+setTimeout(() => {
+	preloader.style.display = 'none'; 
+}, 1500);
+  
+});
 (function($) { "use strict";
 
     document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
